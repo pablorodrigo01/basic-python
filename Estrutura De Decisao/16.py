@@ -13,9 +13,9 @@ if d < 0:
     print("A equação não possui raizes reais")
     exit()
 elif d == 0:
-    r1 = (-b + float(d) ** 0.5)/(2*a)
+    r1 = -b/(2*a)
     print("A equação possui apenas uma raiz real:", r1)
 else:
-    r1 = (-b + float(d) ** 0.5)/(2*a)
-    r2 = (-b - float(d) ** 0.5)/(2*a)
+    r1 = (-b + (d) ** 0.5)/(2*a)
+    r2 = (-b - (d) ** 0.5)/(2*a)
     print(f'A equação possui duas raizes real: {r1} e {r2}')

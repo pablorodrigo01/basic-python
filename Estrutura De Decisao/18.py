@@ -4,7 +4,7 @@ data = input("Digite uma data no formato dd/mm/aaaa: ")
 dia, mes, ano = map(int, data.split('/'))
 
 # Verifica se o ano é bissexto
-if (ano % 4 == 0 and ano % 100 != 0) or ano % 400 == 0:
+if (ano % 4 == 0):
     bissexto = True
 else:
     bissexto = False

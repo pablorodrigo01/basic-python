@@ -2,8 +2,10 @@
 
 letra = input("Digite uma letra: ")
 
+letra = letra.upper()
+
 if letra.isalpha():  # Uso do isalpha pra evitar a entrada de numeros
-    if letra in 'aeiouAEIOU':
+    if letra in 'AEIOU':
         print("A letra digitada é uma vogal.")
     else:
         print("A letra digitada é uma consoante.")
