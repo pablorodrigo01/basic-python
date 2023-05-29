@@ -30,3 +30,7 @@ Os exercícios foram resolvidos de acordo com as instruções fornecidas. Caso h
 
 ---
 Espero que isso atenda às suas necessidades para a entrega da lista de exercícios. Se você tiver mais perguntas, fique à vontade para perguntar.
+
+Atenciosamente,
+Pablo Rodrigo
+E-mail: pablo.rmgoncalves@unitau.br
