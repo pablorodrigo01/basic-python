@@ -10,6 +10,8 @@ Este é um repositório contendo os exercícios resolvidos da lista em Python, f
 - [Lista](./Lista): Exercícios relacionados a manipulação de listas.
 - [Strings](./Strings): Exercícios relacionados a manipulação de strings.
 
+## Localização de Arquivos
+
 - `1.py`: Solução para o exercício 1.
 - `2.py`: Solução para o exercício 2.
 - ...
