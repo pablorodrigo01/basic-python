@@ -33,4 +33,4 @@ Espero que isso atenda às suas necessidades para a entrega da lista de exercíc
 
 Atenciosamente,
 Pablo Rodrigo
-E-mail: pablo.rmgoncalves@unitau.br
+E-mail: <pablo.rmgoncalves@unitau.br>
