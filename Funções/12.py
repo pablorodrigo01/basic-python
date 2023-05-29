@@ -5,21 +5,16 @@
 import random
 
 def embaralha_palavra(palavra):
-    # Converter a palavra para caixa baixa
     palavra = palavra.lower()
 
-    # Embaralhar os caracteres da palavra
     letras = list(palavra)
     random.shuffle(letras)
     palavra_embaralhada = ''.join(letras)
 
-    # Converter a palavra embaralhada para caixa alta
     palavra_embaralhada = palavra_embaralhada.upper()
 
     return palavra_embaralhada
 
-
-# Exemplo de uso
 palavra = input('Digite uma palavra: ')
 palavra_embaralhada = embaralha_palavra(palavra)
 print('Palavra embaralhada:', palavra_embaralhada)

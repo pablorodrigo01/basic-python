@@ -34,7 +34,6 @@ def jogar_craps():
             print("Você tirou um 7. Você perdeu!")
             return
 
-# Início do jogo
 print("Bem-vindo ao jogo de Craps!")
 while True:
     continuar = input("Deseja jogar? (s/n): ")

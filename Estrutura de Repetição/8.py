@@ -1,12 +1,12 @@
 # 8. Faça um programa que leia 5 números e informe a soma e a média dos números.
 
-numeros = []
+ns = []
 soma = 0
 
 for i in range(5):
-    numero = float(input("Digite um número: "))
-    numeros.append(numero)
-    soma += numero
+    n = float(input("Digite um número: "))
+    ns.append(n)
+    soma += n
 
 media = soma / 5
 

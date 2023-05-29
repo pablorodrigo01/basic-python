@@ -1,16 +1,15 @@
 # 9. Reverso do número. Faça uma função que retorne o reverso de um número inteiro informado. Por exemplo: 127 -> 721.
 
-def inverterNumero(numero):
+def invertern(n):
     reverso = 0
 
-    while numero > 0:
-        digito = numero % 10
+    while n > 0:
+        digito = n % 10
         reverso = (reverso * 10) + digito
-        numero //= 10
+        n //= 10
 
     return reverso
 
-# Exemplo de uso da função
-numero = int(input("Digite um número inteiro: "))
-reverso = inverterNumero(numero)
+n = int(input("Digite um número inteiro: "))
+reverso = invertern(n)
 print("O reverso do número é:", reverso)

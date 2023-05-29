@@ -4,14 +4,14 @@ limite = int(input("Digite um número inteiro: "))
 
 primos = []
 
-for numero in range(2, limite + 1):
+for n in range(2, limite + 1):
     eh_primo = True
-    for divisor in range(2, int(numero**0.5) + 1):
-        if numero % divisor == 0:
+    for divisor in range(2, int(n**0.5) + 1):
+        if n % divisor == 0:
             eh_primo = False
             break
     if eh_primo:
-        primos.append(numero)
+        primos.append(n)
 
 print("Números primos até", limite, ":")
 print(primos)

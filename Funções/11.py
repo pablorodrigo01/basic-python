@@ -27,13 +27,10 @@ def data_por_extenso(data):
         12: 'dezembro'
     }
 
-    # Construir a string de data por extenso
     data_extenso = f'{dia} de {meses[mes]} de {ano}'
 
     return data_extenso
 
-
-# Exemplo de uso
 data = input('Digite uma data (DD/MM/AAAA): ')
 data_extenso = data_por_extenso(data)
 if data_extenso is not None:

@@ -1,9 +1,9 @@
 # 1. Faça um Programa que peça um valor e mostre na tela se o valor é positivo ou negativo.
 
-numero1 = float(input("Digite o primeiro número: "))
-numero2 = float(input("Digite o segundo número: "))
+n1 = float(input("Digite o primeiro número: "))
+n2 = float(input("Digite o segundo número: "))
 
-if numero1 > numero2:
-    print("O maior número é:", numero1)
+if n1 > n2:
+    print("O maior número é:", n1)
 else:
-    print("O maior número é:", numero2)
+    print("O maior número é:", n2)

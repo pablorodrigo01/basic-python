@@ -1,10 +1,10 @@
-# 48. Faça um programa que peça um numero inteiro positivo e em seguida mostre este numero invertido
+# 48. Faça um programa que peça um n inteiro positivo e em seguida mostre este n invertido
 
-numero = int(input("Digite um número inteiro positivo: "))
+n = int(input("Digite um número inteiro positivo: "))
 
 # Verifica se o número é positivo
-if numero < 0:
+if n < 0:
     print("O número deve ser positivo.")
 else:
-    numero_invertido = int(str(numero)[::-1])
-    print("Número invertido:", numero_invertido)
+    n_invertido = int(str(n)[::-1])
+    print("Número invertido:", n_invertido)

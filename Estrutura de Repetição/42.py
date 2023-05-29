@@ -8,18 +8,18 @@ intervalos = {
 }
 
 while True:
-    numero = float(input("Digite um número positivo (ou um número negativo para sair): "))
+    n = float(input("Digite um número positivo (ou um número negativo para sair): "))
     
-    if numero < 0:
+    if n < 0:
         break
     
-    if numero >= 0 and numero <= 25:
+    if n >= 0 and n <= 25:
         intervalos["[0-25]"] += 1
-    elif numero >= 26 and numero <= 50:
+    elif n >= 26 and n <= 50:
         intervalos["[26-50]"] += 1
-    elif numero >= 51 and numero <= 75:
+    elif n >= 51 and n <= 75:
         intervalos["[51-75]"] += 1
-    elif numero >= 76 and numero <= 100:
+    elif n >= 76 and n <= 100:
         intervalos["[76-100]"] += 1
 
 print("\nQuantidade de números nos intervalos:")

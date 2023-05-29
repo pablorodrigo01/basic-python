@@ -16,20 +16,14 @@ def imprimirHora(horas, minutos, periodo):
 
 def main():
     while True:
-        # Solicita ao usuário a hora e os minutos
         horas = int(input("Digite a hora (0-23): "))
         minutos = int(input("Digite os minutos (0-59): "))
 
-        # Chama a função converterHora passando as horas e os minutos como argumentos
         nova_hora, novos_minutos, periodo = converterHora(horas, minutos)
 
-        # Chama a função imprimirHora para exibir a hora convertida
         imprimirHora(nova_hora, novos_minutos, periodo)
 
-        # Pergunta ao usuário se deseja converter uma nova hora
         opcao = input("Deseja converter outra hora? (S/N): ")
         if opcao.upper() != 'S':
             break
-
-# Chama a função principal
 main()

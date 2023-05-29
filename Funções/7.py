@@ -36,5 +36,4 @@ def main():
     print("Quantidade de prestações pagas:", total_prestacoes)
     print("Valor total recebido no dia: R$", valor_total_dia)
 
-# Chama a função principal
 main()

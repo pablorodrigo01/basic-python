@@ -1,11 +1,11 @@
 # 7. Faça um programa que leia 5 números e informe o maior número.
-numeros = []
+ns = []
 
 for i in range(5):
-    numero = float(input("Digite um número: "))
-    numeros.append(numero)
+    n = float(input("Digite um número: "))
+    ns.append(n)
 
-maior = max(numeros)
+maior = max(ns)
 
 # Exibir o resultado
 print("O maior número é:", maior)
